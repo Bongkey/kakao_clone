@@ -1,0 +1,14 @@
+.alarm {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
