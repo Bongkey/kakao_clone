@@ -1,6 +1,6 @@
 #chat-screen {
     background-color: #abc1d1;
-    height: 1000vh;
+    height: 200vh;
 }
 
 #chat-screen .status-bar,
@@ -58,8 +58,8 @@
 
 .message__info img {
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 .message__bubble {
