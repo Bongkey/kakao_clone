@@ -12,7 +12,7 @@ function loadChat() {
             lastChat = chat;
         }
     }
-    console.log(lastChat);
+    
     if(lastChat !== null && lastChat !==""){
         subTitle.innerText = lastChat;
         time.innerText = "18:43";

@@ -14,7 +14,6 @@ function loadChat() {
             chats.push(chat);
         }
     }
-    console.log(chats);
 
     chats.forEach(chat => {
         createChat(chat);
