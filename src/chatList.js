@@ -12,6 +12,9 @@ function loadChat() {
             lastChat = chat;
         }
     }
-    subTitle.innerText = lastChat;
-    time.innerText = "18:43";
+    if(lastChat!==null){
+        subTitle.innerText = lastChat;
+        time.innerText = "18:43";
+    }
+    
 }
