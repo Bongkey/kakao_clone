@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>More - Kakao Clone</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
@@ -41,7 +41,7 @@
     <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar--xl" src="img/profile.jpeg" />
+                <img class="user-component__avatar user-component__avatar--xl" src="../img/profile.jpeg" />
                 <div class="user-component__text">
                     <h4 class="user-component__title">기봉조</h4>
                     <h6 class="user-component__subtitle">+82 123-1234-1234 <i class="fas fa-info-circle"></i></h6>
@@ -82,19 +82,19 @@
             <div class="more-suggestion__icons">
                 <div class="more-suggestion__icon">
                     <div class="more-suggestion__icon-image">
-                        <img src="img/kakaostory.png" alt="">
+                        <img src="../img/kakaostory.png" alt="">
                     </div>
                     <div class="more-suggestion__icon-text">카카오 스토리</div>
                 </div>
                 <div class="more-suggestion__icon">
                     <div class="more-suggestion__icon-image">
-                        <img src="img/kakaobank.jpg" alt="">
+                        <img src="../img/kakaobank.jpg" alt="">
                     </div>
                     <div class="more-suggestion__icon-text">카카오 뱅크</div>
                 </div>
                 <div class="more-suggestion__icon">
                     <div class="more-suggestion__icon-image">
-                        <img src="img/kakaoT.png" alt="">
+                        <img src="../img/kakaoT.png" alt="">
                     </div>
                     <div class="more-suggestion__icon-text">카카오 T</div>
                 </div>
@@ -128,12 +128,16 @@
         </ul>
     </nav>
 
-    <div id="no-mobile">
-        <img src="img/bigScreen.png" alt="">
-        <span>스크린 크기가 너무 큽니다. ㅠㅠ</span>
+    <div id="splash-screen">
+        <i class="fas fa-comment"></i>
     </div>
 
+    <div id="no-mobile">
+        <img src="../img/bigScreen.png" alt="">
+        <span>스크린 크기가 너무 큽니다. ㅠㅠ</span>
+    </div>
     <script src="https://kit.fontawesome.com/294e36a226.js" crossorigin="anonymous"></script>
+    <script src="../src/navBadge.js"></script>
 </body>
 
 </html>

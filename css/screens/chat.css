@@ -150,6 +150,13 @@
     flex-direction: row-reverse;
 }
 
+.message__state {
+    color: var(--yellow);
+    margin-right: -35px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
 .reply {
     position: fixed;
     bottom: 0;

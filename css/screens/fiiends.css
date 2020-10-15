@@ -50,6 +50,6 @@
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    animation: hideSplashScreen 0.4s ease-in-out forwards;
-    animation-delay: 1s;
+    animation: hideSplashScreen .2s ease-in-out forwards;
+    animation-delay: .1s;
 }
